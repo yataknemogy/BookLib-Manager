@@ -18,18 +18,18 @@
 ## Технические детали
 
 - Backend часть приложения написана на Python.
-- В качестве базы данных используется [SQLite](https://www.sqlite.org/index.html).
+- В качестве базы данных используется [MySQL](https://dev.mysql.com/doc/refman/8.3/en/what-is-mysql.html).
 - Реализован REST API с использованием [Flask](https://flask.palletsprojects.com/) для взаимодействия с данными.
 - Простой веб-интерфейс создан с использованием HTML, CSS и [Jinja2](https://jinja.palletsprojects.com/) шаблонизатора.
 
 ## Установка и запуск
 
 1. Установите зависимости, выполнив следующую команду:
-- pip install -r requirements.txt
+- `pip install -r requirements.txt`
 
 2. Установите MySQL и создайте базу данных с именем "book".
 
 3. Запустите приложение, выполните:
-- python app.py
+- `python app.py`
 
 4. Откройте веб-браузер и перейдите по адресу [http://localhost:5000](http://localhost:5000) для взаимодействия с приложением.
