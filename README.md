@@ -1,35 +1,23 @@
-# Управление книжной библиотекой
+# Book Library Management
 
-Этот проект представляет собой веб-приложение для управления книжной библиотекой. Он позволяет пользователям просматривать, добавлять, обновлять и удалять книги, а также осуществлять поиск книг по различным критериям.
+This project is a web application for managing a book library. It allows users to view, add, update, and delete books, as well as search for books by various criteria.
 
-## Основные функции
+## Key Features
 
-- Добавление новой книги с указанием заголовка, автора, жанра, года выпуска и других характеристик.
-- Просмотр списка всех книг в библиотеке.
-- Поиск книг по заголовку, автору, жанру или другим характеристикам.
-- Обновление информации о книге (например, изменение автора, жанра или года выпуска).
-- Удаление книги из библиотеки.
+- Add a new book with title, author, genre, publication year, and other characteristics.
+- View a list of all books in the library.
+- Search for books by title, author, genre, or other characteristics.
+- Update book information (e.g., change author, genre, or publication year).
+- Delete a book from the library.
 
-## Дополнительные функции
+## Additional Features
 
-- Возможность добавления пользователей и связывание книг с конкретными пользователями.
-- Реализация аутентификации и авторизации пользователей.
+- Ability to add users and link books to specific users.
+- Implementation of user authentication and authorization.
 
-## Технические детали
+## Technical Details
 
-- Backend часть приложения написана на Python.
-- В качестве базы данных используется [MySQL](https://dev.mysql.com/doc/refman/8.3/en/what-is-mysql.html).
-- Реализован REST API с использованием [Flask](https://flask.palletsprojects.com/) для взаимодействия с данными.
-- Простой веб-интерфейс создан с использованием HTML, CSS и [Jinja2](https://jinja.palletsprojects.com/) шаблонизатора.
-
-## Установка и запуск
-
-1. Установите зависимости, выполнив следующую команду:
-- `pip install -r requirements.txt`
-
-2. Установите MySQL и создайте базу данных с именем "book".
-
-3. Запустите приложение, выполните:
-- `python app.py`
-
-4. Откройте веб-браузер и перейдите по адресу [http://localhost:5000](http://localhost:5000) для взаимодействия с приложением.
+- The backend of the application is written in Python.
+- [MySQL](https://dev.mysql.com/doc/refman/8.3/en/what-is-mysql.html) is used as the database.
+- A REST API is implemented using [Flask](https://flask.palletsprojects.com/) to interact with the data.
+- A simple web interface is created using HTML, CSS, and the [Jinja2](https://jinja.palletsprojects.com/) template engine.
